@@ -1,6 +1,6 @@
 import { ButtonBase } from '@material-ui/core';
 import React from 'react';
-import Button from '../button/Button';
+import Button from '../../button/Button';
 
 import PersonIcon from "@material-ui/icons/Person";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
