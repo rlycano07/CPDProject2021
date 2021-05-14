@@ -1,12 +1,11 @@
-import React from "react";
+import React from 'react';
 
-import "./Landing.css";
+import './Landing.css';
 import Navbar from "../navbar/Navbar";
 
 export default function Landing() {
-  return (
-    <div>
-      <Navbar/>
+    return (
+    <div><Navbar />
     </div>
-  );
+    );
 }

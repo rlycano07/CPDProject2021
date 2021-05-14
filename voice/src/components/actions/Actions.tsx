@@ -1,10 +1,17 @@
-import React from "react";
-import'./Actions.css';
+import { ButtonBase } from '@material-ui/core';
+import React from 'react';
+import Button from '../button/Button';
+
+import './Actions.css';
 
 export default function Actions() {
-  return (
-    <div>
-      <Actions/>
-    </div>
-  );
+    return (
+        <div className="actions">
+            <Button label="LOG IN" />
+            <Button primary label="SIGN UP"/>
+            <div>Profile</div>
+
+            
+        </div>
+    );
 }
