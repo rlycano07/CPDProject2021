@@ -1,4 +1,22 @@
 .actions {
     display: flex;
     align-items: center;
+    margin-top: -22px;
+}
+
+.actions div:nth-child(2){
+    margin: 0px 10px;
+}
+
+.profile {
+    border: 1px solid transparent;
+    border-radius: var(--border-radius);
+}
+
+.profile:hover {
+    border: 1px solid rgb(228,228,230);
+}
+
+.profile svg {
+    margin-right: 10px;
 }
