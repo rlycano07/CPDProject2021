@@ -1,0 +1,47 @@
+.mainbar{
+    flex: 0.8;
+}
+
+.mainbar .trending-posts-title {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.mainbar .update-card {
+    background-color:aliceblue;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid aliceblue;
+    margin-top: 15px;
+}
+
+.mainbar .update-card .top-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainbar .update-card .top-section span {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.mainbar .update-card .top-section svg{
+    font-size: 14px;
+}
+
+.mainbar .update-card .top-section svg:hover {
+    background-color:brown;
+    color: white;
+    border-radius: var(--border-radius);
+}
+
+.mainbar .update-card .body{
+    margin: 20px 20px;
+    display: flex;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid black; 
+    
+}
