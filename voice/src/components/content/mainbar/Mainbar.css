@@ -5,12 +5,12 @@
 .mainbar .trending-posts-title {
     font-size: 20px;
     font-weight: bold;
-
+    padding: 10px;
 }
 
 .mainbar .update-card {
     background-color:aliceblue;
-    padding: 10px;
+    padding: 15px;
     border-radius: var(--border-radius);
     border: 1px solid aliceblue;
     margin-top: 15px;
@@ -25,6 +25,7 @@
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 3px;
+    padding: 10px;
 }
 
 .mainbar .update-card .top-section svg{
@@ -38,10 +39,31 @@
 }
 
 .mainbar .update-card .body{
-    margin: 20px 20px;
-    display: flex;
+    margin: 15px 15px; 
     padding: 10px;
-    border-radius: var(--border-radius);
-    border: 1px solid black; 
-    
+    border-radius: 15px;
+    border: 1px solid black;
+    display: flex;
 }
+
+.mainbar .update-card .context .title{
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(80, 176, 144);
+    margin-bottom: 10px;
+}
+
+.mainbar .update-card .context .about{
+    font-size: 14px;
+}
+
+.mainbar .update-card .body .account img {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+    border-radius: 25px;
+    margin-top: 7px;
+}
+
+
+

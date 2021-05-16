@@ -12,13 +12,19 @@ export default function Mainbar(){
                 <CloseIcon className="hoverable"/>
 
             </div>
-            <div className="body">
-                <span className="title">Welcome to Voice, where every word matters.</span>
-                <span className="about">This is a beta version of the Voice website where you can post discussion topics, present ideas, 
-                show support or denial while learning more about your community.  
-                </span>
-                
+            <div className="body hoverable">
+                <div className="context">
+                    <span className="title">Welcom to Voice</span> <br />
+                    <span className="about">
+                        This is a beta version of the Voice website where you can post discussion topics, present ideas, 
+                        show support or denial while learning more about your community.  
+                    </span>
+                </div>   
+                <div className="account">
+                    <img src="./assets/images/logo.jpg"/>
+                </div>
             </div>
+            
         </div>
     </div>
 }
