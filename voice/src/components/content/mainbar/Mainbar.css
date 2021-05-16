@@ -14,6 +14,7 @@
     border-radius: var(--border-radius);
     border: 1px solid aliceblue;
     margin-top: 15px;
+    
 }
 
 .mainbar .update-card .top-section {
@@ -42,9 +43,14 @@
     margin: 15px 15px; 
     padding: 10px;
     border-radius: 15px;
-    border: 1px solid black;
+    border: 2px solid rgb(216, 236, 255);
     display: flex;
 }
+
+.mainbar .update-card .body:hover{
+    border: 2px solid rgb(192, 210, 227);
+}
+
 
 .mainbar .update-card .context .title{
     font-weight: bold;
@@ -58,8 +64,10 @@
 }
 
 .mainbar .update-card .body .account img {
-    width: 50px;
-    height: 50px;
+    min-width: 50px;
+    max-width: 50px;
+    min-height: 50px;
+    max-height: 50px;
     margin-right: 8px;
     border-radius: 25px;
     margin-top: 7px;

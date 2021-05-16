@@ -8,7 +8,7 @@ export default function Mainbar(){
 
         <div className="update-card"> 
             <div className="top-section">
-                <span>New posts</span>
+                <span>New posts !!</span>
                 <CloseIcon className="hoverable"/>
 
             </div>
